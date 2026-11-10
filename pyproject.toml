@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kaanan"
+version = "0.4.0"
+description = "AI-driven SAST, UAT documentation, and VAPT CLI tool"
+readme = "README.md"
+license = {text = "Apache-2.0"}
+requires-python = ">=3.10"
+dependencies = [
+    "typer[all]>=0.12",
+    "python-dotenv>=1.0",
+    "litellm>=1.83.0",
+    "rich>=13.0",
+    "fpdf2>=2.7",
+    "httpx>=0.27",
+]
+
+[project.scripts]
+kaanan = "kaanan.cli:app"
+
+[tool.setuptools]
+packages = ["kaanan"]
+
+[tool.setuptools.package-data]
+kaanan = ["assets/*.png"]
