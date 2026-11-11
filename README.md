@@ -240,6 +240,9 @@ kaanan/
 
 Issues and pull requests are welcome. Please open an issue before submitting large changes.
 
+## Contact
+Questions, feedback or a security review to discuss? [Chat on WhatsApp](https://wa.me/919833644917?text=Hi%2C%20I%20found%20Kaanan%20on%20GitHub) or find me on [LinkedIn](https://www.linkedin.com/in/yaohan-fernandes/).
+
 ---
 
 *Kaanan is not affiliated with OpenAI, Anthropic, Google, or any LLM provider. All trademarks belong to their respective owners.*
